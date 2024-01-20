@@ -1,0 +1,15 @@
+@import url(http://localhost/InvenToWare-main/css/dashboardsidenav.css);
+@import url(http://localhost/InvenToWare-main/css/dashboardnav.css);
+@import url(./dashboardcontents.css);
+body{
+    overflow: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.side_content_container{
+    display: flex;
+}
+

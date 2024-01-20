@@ -1,0 +1,84 @@
+.dashboard_nav{
+    width: 100vw;
+    height: 8vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #f24c5f;
+}
+.dashboard_nav_right{
+    width: 35%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_navicons{
+    position: relative;
+    width: 10vw;
+}
+.Username{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    width: 10vw;
+    height: 2vw;
+    text-align: center;
+    border-radius: 6px;
+    right: -30.5vw;
+    top: -1vw;
+}
+.userCreds_dashboard_nav i{
+    font-size: 1.6vw;
+    position: absolute;
+    right: -32vw;
+    top: -1vw;
+}
+.userCreds_dashboard_nav{
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown_logs{
+    position: absolute;
+    bottom:-3vw;
+    left: 29vw;
+    opacity: 0;
+    width:6vw;
+    height: 2vw;
+    padding: 6px 0;
+    border: .5px solid whitesmoke;
+    background-color: #f24c5f;
+    text-align: center;
+}
+.dropdown_logs a{
+    text-decoration: none;
+    color: white;
+}
+.dashboard_navicons i {
+    position: absolute;
+    right: -10vw;
+    top: -.6vw;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+#lightmode{
+color: black;
+}
+#darkmode{
+    color: black;
+    display: none;
+}
+
+/* .dashboard_navsearchbars input{
+    padding: 6px 8px;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+}
+.dashboard_navsearchbars input::placeholder{
+    padding: 4px 17px;
+} */
+
+

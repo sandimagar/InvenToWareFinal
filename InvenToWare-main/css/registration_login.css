@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  .container {
+    width: 23vw;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    position: relative;
+
+  }
+  
+  label {
+    margin-left: 1.5vw;
+
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    margin-left: 1.5vw;
+    width: 89%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .input-group {
+    position: relative;
+
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: .7vw;
+
+
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="password"] {
+    margin-left: .7vw;
+    width: 89%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .input-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .not-signed-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+i{left: -.5vw;
+    top: 2vw;
+    position: absolute;
+  }
+  
+
+
+  

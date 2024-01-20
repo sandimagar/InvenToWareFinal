@@ -1,0 +1,177 @@
+@import url(./animations.css);
+@import url(./cards.css);
+@import url(./pages.css);
+@import url(./live-chat.css);
+@import url(./footer.css);
+body,
+h1,
+p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  background-color: #f2f0e9;
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.links a {
+  margin-right: 12px;
+  height: 1.5vw;
+  text-align: center;
+  border-right: 1px solid black;
+  transition: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.links a:hover {
+  font-size: 1.1vw;
+}
+
+.navigation {
+  margin-top: 0.5vw;
+  display: flex;
+  width: 100%;
+  height: 3vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  position: relative;
+  width: 6vw;
+  height: 3vw;
+
+}
+.logo h2{
+  position: absolute;
+  top: -1.3vw;
+  opacity: 0;
+  left: 1vw;
+  z-index: -1;
+}
+.logo img{
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  width: 4vw;
+  height: 3vw;
+  top:-.2vw;
+  left: 1vw;
+
+}
+
+.midsection {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons a {
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-right: 12px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fb5607;
+}
+.buttons {
+  transition: all 1s ease-in-out;
+}
+.buttons:hover {
+  scale: 1.03;
+}
+.buttons a:hover {
+  background-color: #0056b3;
+}
+
+main {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+  padding: 40px;
+  border-bottom: 1px solid black;
+  margin-bottom: 2vw;
+}
+.leftsectionpage p {
+  width: 70%;
+  margin: auto;
+}
+.left-section-para .headingleft1 {
+  margin-bottom: 2vw;
+}
+.leftsectionpage {
+  position: relative;
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+.rightsectionpage {
+  width: 35vw;
+  height: 60vh;
+  
+}
+.rightsectionpage img{
+  width: 35vw;
+  height: 60vh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  width: 70%;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.hero p {
+  font-size: 0.9em;
+  color: black;
+}
+
+.buttons-hero-join-learn {
+  position: absolute;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  bottom: 5vw;
+  cursor: pointer;
+}
+.join:hover  {
+    animation: hero-button 2s ease-in-out ;
+
+}
+.learn-more:hover{
+    animation: hero-button 2s ease-in-out ;
+
+}
+.bttns-leftsec a {
+  color: white;
+}
+.bttns-leftsec {
+  font-weight: 500;
+  margin: 6px 20px;
+  padding: 15px 25px;
+  border-radius: 8px;
+  background-color: #ef233c;
+}

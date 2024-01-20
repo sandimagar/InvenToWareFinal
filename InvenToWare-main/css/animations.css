@@ -1,0 +1,77 @@
+@keyframes hero-button {
+    0%{
+        transform: translateY(0);
+    }    
+    
+    50%{
+        transform: translateY(10px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes contact_submit_button{
+    0%{
+        transform: translateY(0);
+    }    
+    
+    50%{
+        transform: translateY(-6px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes footer_links {
+    0%{
+        transform: translateX(0);
+    }    
+    
+    50%{
+        transform: translateX(20px);
+    }
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes cards-more {
+    0%{
+        transform: translateX(0);
+    }    
+    
+    50%{
+        transform: translateX(10px);
+    }
+    
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes live_chat_icon {
+    0%{
+        transform: translateY(0);
+    }    
+    
+    50%{
+        transform: translateY(-50px);
+    }
+    
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes logo{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(25px);
+    }
+    100%{
+        transform: translateX(60px);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,185 @@
+.livechat{
+    z-index: 1;
+    position: fixed;
+    bottom: 3vw;
+    right: -3vw;
+}
+.icons{
+    position: absolute;
+    right: 3vw;
+    bottom: 0;
+
+}
+.icons i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+.drag-container{
+    position: relative;
+}
+
+
+#live_chat_close{
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    font-size: 1.2vw;
+    transform: translate(-450px,-465px);
+}
+.drag-container{
+    box-shadow: 6px 1px 15px 10px  gray;
+    background-color: white;
+    border-radius: 8px;
+    right: -40vw;
+    position: relative;
+    height: 60vh;
+    width: 35vw;
+    transition: all .3s ease-in-out;
+}
+.heading-livechat{
+    width: 100%;
+    height: 2vw;
+    font-size: 1.2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 1px solid gray;
+
+    
+}
+.drag-contents{
+    border-radius: 8px;
+    height: 31vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drag-contents-left{
+    display: flex;
+    flex-direction: column;
+    height: 31vw;
+    width: 20%;
+    border-bottom-left-radius: 8px;
+    border-right: 1px solid gray;
+
+
+}
+.drag-contents-left .Users{
+   
+    border: .3px solid gray;
+    margin: 6px 3px;
+    padding: 6px 7px;
+    background-color: white;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+}
+.user-img1{
+    background-image: url(/images/user1.png);
+    background-position: center;
+    background-size: contain;
+}
+.user-img2{
+    background-image: url(/images/user2.png);
+    background-position: center;
+    background-size: contain;
+}
+.user-img3{
+    background-image: url(/images/img3.png);
+    background-position: center;
+    background-size: contain;
+}
+.user_container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border-bottom:1px solid black ;
+}
+.usernames{
+    padding: 3px 0;
+    font-weight: 600;
+    font-size: 9px;
+    margin-top: 0;
+    margin-right: 3vw;
+    
+}
+
+.drag-contents-right{
+    border-bottom-right-radius: 8px;
+
+    height: 31vw;
+    width: 80%;
+    position: relative;
+}
+
+.bottom_right{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+    height: 3vw;
+}
+.bottom_right input{
+    border: none;
+    outline: none;
+    position: absolute;
+    width: 100%;
+    padding: 13.3px 12px;
+    background-color: gray;
+    border-radius: 15px;
+    
+}
+.profile{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.profile_icons{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 14px 5px;
+}
+.profile_icons i{
+    cursor: pointer;
+    margin-right: -4vw;
+}
+.profile_img{
+    background-image: url(/images/img3.png);
+
+    margin: 6px 3px;
+    padding: 6px 7px;
+    background-color: white;
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.profile_name{
+    cursor: pointer;
+    font-size: 1.2vw;
+    margin-left: -11vw;
+    font-weight: 600;
+}
+.bottom_right i{
+    cursor: pointer;
+    top: .7vw;
+    right: 3.5vw;
+    position: absolute;
+    font-size: 1.5vw;
+}
+.mid_right{
+    width: 100%;
+    height:27.8vw ;
+ position: absolute;
+ 
+ 
+}
+.top_right{
+    width: 100%;
+    height: 3vw;
+ top: 0;
+    position: absolute;
+    border-bottom: 1px solid gray;
+    
+}
